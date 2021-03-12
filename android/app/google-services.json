@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "489979891949",
+    "firebase_url": "https://buybharatiya-9c0e8.firebaseio.com",
+    "project_id": "buybharatiya-9c0e8",
+    "storage_bucket": "buybharatiya-9c0e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489979891949:android:e4ce4b6c5174808830fce4",
+        "android_client_info": {
+          "package_name": "com.dreamteam.buybharatiya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489979891949-3p4fmid144pk3ronkvag74ojo9ol0idk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt16hguGMMVtw6UnSq6h2FH73FZzU-KvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489979891949-3p4fmid144pk3ronkvag74ojo9ol0idk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "489979891949-dlvqhk8r8mb0rmeh0cl015hkroivghli.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.buybharatiya"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489979891949:android:ab81bf1cb625777130fce4",
+        "android_client_info": {
+          "package_name": "com.example.buybharatiya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489979891949-3p4fmid144pk3ronkvag74ojo9ol0idk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt16hguGMMVtw6UnSq6h2FH73FZzU-KvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489979891949-3p4fmid144pk3ronkvag74ojo9ol0idk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "489979891949-dlvqhk8r8mb0rmeh0cl015hkroivghli.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.buybharatiya"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

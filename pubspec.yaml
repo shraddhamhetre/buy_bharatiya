@@ -1,0 +1,326 @@
+name: buybharatiya
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher:
+  splashscreen:
+  flappy_search_bar: 1.4.1
+  carousel_slider: ^2.2.1
+  firebase_database:
+  like_button: ^1.0.1
+  curved_navigation_bar: ^0.3.3
+  flutter_icons:
+  queries: ^0.1.14
+  search_widget:
+  shared_preferences:
+  scoped_model: ^0.3.0
+  flare_splash_screen: ^3.0.1
+  font_awesome_flutter: ^8.2.0
+  firebase_messaging:
+  lazy_load_scrollview: ^1.1.0
+  sqflite:
+  path_provider:
+  flutter_pagewise:
+
+
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/img/BuyBharatiyaRoundicon.png"
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.3"
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/img/Buy Bharatiya.jpg
+    - assets/img/BuyBharatiyaRoundicon.png
+    - assets/img/namaste.png
+    - assets/img/Buy Bharatiya-01.png
+    - assets/img/menucover (1).jpg
+    - assets/img/buybhartiya icon.png
+    - assets/categoriesicon/global.png
+    - assets/categoriesicon/indian.png
+    - assets/categoriesicon/saved.png
+    - assets/categoriesicon/assembledinindia.png
+    - assets/img/BuyBharatiyaiconlogo.png
+    - assets/categoriesicon/BuyBharatiyaRoundicon.PNG
+    - assets/categoriesicon/Bags.png
+    - assets/categoriesicon/Beauty.png
+    - assets/categoriesicon/Clothing.png
+    - assets/categoriesicon/Footwear.png
+    - assets/categoriesicon/Health & Personal Care.png
+    - assets/categoriesicon/bb1stcover.jpg
+    - assets/categoriesicon/bb2ndcover.jpg
+    - assets/categoriesicon/Electronics.png
+    - assets/categoriesicon/bb3.jpg
+    - assets/categoriesicon/bb4.jpg
+    - assets/categoriesicon/bb6.jpg
+    - assets/categoriesicon/bb7.jpg
+    - assets/categoriesicon/Grocery.png
+    - assets/categoriesicon/Top Picks.png
+    - assets/subCategory/Baby.png
+    - assets/subCategory/Girls.png
+    - assets/subCategory/Men.png
+    - assets/subCategory/AC.png
+    - assets/subCategory/Cameras.png
+    - assets/subCategory/Computers.png
+    - assets/subCategory/Headphones.png
+    - assets/subCategory/Home & Kitchen.png
+    - assets/subCategory/Laptops.png
+    - assets/subCategory/Mobiles.png
+    - assets/subCategory/Accessories.png
+    - assets/subCategory/Automatic.png
+    - assets/subCategory/Baby Clothing.png
+    - assets/subCategory/Baby Soaps.png
+    - assets/subCategory/Backpacks.png
+    - assets/subCategory/Biscuits.png
+    - assets/subCategory/Bottoms.png
+    - assets/subCategory/Jeans & Bottoms.png
+    - assets/subCategory/Boys.png
+    - assets/subCategory/Boys Ethnic.png
+    - assets/subCategory/Boys Inners.png
+    - assets/subCategory/Boys Tshirts.png
+    - assets/subCategory/Breakfast Essentials.png
+    - assets/subCategory/Cameras.png
+    - assets/subCategory/Casual Bags.png
+    - assets/subCategory/Computers & Accessories.png
+    - assets/subCategory/Computers.png
+    - assets/subCategory/Cooking Essentials.png
+    - assets/subCategory/Cooktops.png
+    - assets/subCategory/Creams & Moisturizers.png
+    - assets/subCategory/Cooktops.png
+    - assets/subCategory/Creams & Moisturizers.png
+    - assets/subCategory/Creams & Oils.png
+    - assets/subCategory/Dals & Pulses.png
+    - assets/subCategory/Deodrants.png
+    - assets/subCategory/Desktops.png
+    - assets/subCategory/Detergents.png
+    - assets/subCategory/Devices.png
+    - assets/subCategory/Diapers.png
+    - assets/subCategory/Dishwash Liquids.png
+    - assets/subCategory/Dishwash Products.png
+    - assets/subCategory/Dishwash Soaps.png
+    - assets/subCategory/Disinfectants.png
+    - assets/subCategory/Dresses.png
+    - assets/subCategory/Dry Food.png
+    - assets/subCategory/Duffle Bags.png
+    - assets/subCategory/Edible Oils.png
+    - assets/subCategory/duffle-bag.png
+    - assets/subCategory/Eyes.png
+    - assets/subCategory/Face.png
+    - assets/subCategory/Face Packs.png
+    - assets/subCategory/Face Wash.png
+    - assets/subCategory/Fans.png
+    - assets/subCategory/Feminine Hygiene.png
+    - assets/subCategory/Floor Cleaners.png
+    - assets/subCategory/Girls.png
+    - assets/subCategory/Girls Clothing.png
+    - assets/subCategory/Girls Dresses.png
+    - assets/subCategory/Girls Ethnic.png
+    - assets/subCategory/Girls Inners.png
+    - assets/subCategory/Girls Tops.png
+    - assets/subCategory/Grains.png
+    - assets/subCategory/Hair Care.png
+    - assets/subCategory/Hair Products.png
+    - assets/subCategory/Hairstyling.png
+    - assets/subCategory/Handbags & Clutches.png
+    - assets/subCategory/Hand Wash.png
+    - assets/subCategory/Handwash Soaps.png
+    - assets/subCategory/Headphones.png
+    - assets/subCategory/headphones.png
+    - assets/subCategory/Health Care.png
+    - assets/subCategory/Home & Kitchen.png
+    - assets/subCategory/Home Appliances.png
+    - assets/subCategory/Invertors.png
+    - assets/subCategory/Iron.png
+    - assets/subCategory/Keyboard & Mouse.png
+    - assets/subCategory/Laptop Bags.png
+    - assets/subCategory/Laptops.png
+    - assets/subCategory/Lightbulbs.png
+    - assets/subCategory/Lingerie.png
+    - assets/subCategory/Lips.png
+    - assets/subCategory/Luggage.png
+    - assets/subCategory/Makeup.png
+    - assets/subCategory/Masalas & Spices.png
+    - assets/subCategory/Masks.png
+    - assets/subCategory/Men.png
+    - assets/subCategory/Mens Ethnic.png
+    - assets/subCategory/Mens Grooming.png
+    - assets/subCategory/Mens Sportswear.png
+    - assets/subCategory/Microwave.png
+    - assets/subCategory/Mixers.png
+    - assets/subCategory/Mobile Accessories.png
+    - assets/subCategory/Mobiles.png
+    - assets/subCategory/Nutrition & Diet.png
+    - assets/subCategory/Onesies & Rompers.png
+    - assets/subCategory/Oral Care.png
+    - assets/subCategory/Packaged Food.png
+    - assets/subCategory/Pants.png
+    - assets/subCategory/Personal care.png
+    - assets/subCategory/Pockets.png
+    - assets/subCategory/Power Banks.png
+    - assets/subCategory/Printers.png
+    - assets/subCategory/Readymade.png
+    - assets/subCategory/Refrigerators.png
+    - assets/subCategory/Rice & Flour.png
+    - assets/subCategory/Rucksacks.png
+    - assets/subCategory/Salt, Sugar & Jaggery.png
+    - assets/subCategory/Sanetizers.png
+    - assets/subCategory/School Bags.png
+    - assets/subCategory/Shirts.png
+    - assets/subCategory/Shoes.png
+    - assets/subCategory/Skin Care.png
+    - assets/subCategory/Skirts & Pants.png
+    - assets/subCategory/Sleepwear.png
+    - assets/subCategory/Slippers.png
+    - assets/subCategory/Snacks.png
+    - assets/subCategory/Soaps & Bodywash.png
+    - assets/subCategory/Socks.png
+    - assets/subCategory/speaker.png
+    - assets/subCategory/Sprays.png
+    - assets/subCategory/subwoofer.png
+    - assets/subCategory/Surface Cleaners.png
+    - assets/subCategory/Tea & Coffee.png
+    - assets/subCategory/Toilet Cleaner.png
+    - assets/subCategory/Tools & Accessories.png
+    - assets/subCategory/Tops.png
+    - assets/subCategory/Trolley Bags.png
+    - assets/subCategory/Tshirts.png
+    - assets/subCategory/TV.png
+    - assets/subCategory/Undergarments.png
+    - assets/subCategory/Wallets.png
+    - assets/subCategory/Washing Machine Detergents.png
+    - assets/subCategory/Washing Machines.png
+    - assets/subCategory/Water Purifiers.png
+    - assets/subCategory/Wet Food.png
+    - assets/subCategory/Women.png
+    - assets/subCategory/Womens Clothing.png
+    - assets/subCategory/Womens Ethnic.png
+    - assets/subCategory/Womens Footwear.png
+    - assets/subCategory/Womens Grooming.png
+    - assets/subCategory/Sandals.png
+    - assets/subCategory/Womens Sandals.png
+    - assets/subCategory/Womens Sportswear.png
+    - assets/subCategory/Womens Shoes.png
+    - assets/subCategory/Sandals.png
+    - assets/subCategory/Womens Footwear.png
+    - assets/subCategory/Wallets & Accessories.png
+    - assets/categoriesicon/Sports.png
+    - assets/subCategory/Speakers.png
+    - assets/subCategory/Personal Care.png
+    - assets/subCategory/Mens Footwear.png
+    - assets/subCategory/Kids Footwear.png
+    - assets/subCategory/Household Supplies.png
+    - assets/subCategory/Heels.png
+    - assets/subCategory/Girls Footwear.png
+    - assets/categoriesicon/Essentials.png
+    - assets/subCategory/Boys Footwear.png
+    - assets/subCategory/Baby Care.png
+    - assets/subCategory/Accessories.png
+    - assets/categoriesicon/Automobile.png
+    - assets/categoriesicon/Home Decor.png
+    - assets/subCategory/Audio.png
+    - assets/subCategory/Batteries.png
+    - assets/subCategory/Bike.png
+    - assets/subCategory/Sofas.png
+    - assets/subCategory/Furniture.png
+    - assets/subCategory/Shelves.png
+    - assets/subCategory/Tables.png
+    - assets/subCategory/Tennis.png
+    - assets/subCategory/Sportswear.png
+    - assets/subCategory/Office Products.png
+    - assets/subCategory/Keyboard & Mouse.png
+    - assets/subCategory/Hockey.png
+    - assets/subCategory/Football.png
+    - assets/subCategory/Equipments.png
+    - assets/subCategory/Dairy.png
+    - assets/subCategory/Cricket.png
+    - assets/subCategory/Badminton.png
+    - assets/subCategory/Baby Food.png
+    - assets/drawermenu/Become A Seller.png
+    - assets/drawermenu/Categories.png
+    - assets/drawermenu/Feedback.png
+    - assets/drawermenu/Home.png
+    - assets/drawermenu/List Of Brands.png
+    - assets/drawermenu/Privacy Policy.png
+    - assets/drawermenu/Terms and Conditions.png
+    - assets/drawermenu/Rate & Review.png
+
+
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpegz
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
+        - asset: assets/fonts/OpenSans-Light.ttf
+          weight: 100
+        - asset: assets/fonts/OpenSans-Bold.ttf
+          weight: 700
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
